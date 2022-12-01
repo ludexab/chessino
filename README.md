@@ -2,11 +2,17 @@
 
 ## Polygon Hackathon Africa 2022 (Beginner Track) Project
 
+#
+
 ![A Live chess game](frontend/src/components/images/live-game.jpg)
+
+#
 
 # Brief Description
 
-This is a web3 chess gaming platform where users can connect their wallets, stake CHN ERC20 token and play a chess game to win rewards, users can also stream live chess game happening on the platform. Users make stakes using the CHN ERC20 token we have created for the platform, and when a user wins a game, the user is rewarded with the same CHN ERC20 token.
+This is a web3 chess gaming platform where users connect their digital crypto wallets, stake CHN ERC20 token (CHN is the ERC20 token created for the gaming platform) and play a chess game to win rewards. Users can also stream live chess game happening on the platform. Users make stakes using the CHN ERC20 token we have created for the platform, and when a user wins a game, the user is rewarded with the same CHN ERC20 token.
+
+#
 
 # Tech Stack and Tools Used
 
@@ -17,16 +23,20 @@ This is a web3 chess gaming platform where users can connect their wallets, stak
 5. React.js
 6. Firebase database
 
+#
+
 # Links
 
-The smart contracts have been deployed to the polygon mumbai testnes
+The smart contracts have been deployed to the polygon mumbai testnet
 
 1. CHN ERC20 Token Contract Address:
-   [CHN ERC20 Token Contract](0x3h343hh6hl45h7h4g2ug452k456hkhkhi4)
+   0x3h343hh6hl45h7h4g2ug452k456hkhkhi4](0x3h343hh6hl45h7h4g2ug452k456hkhkhi4)
 2. Chessino Contract Address:
-   [Chessino Contract](0x3h343hh6hl45h7h4g2ug452k456hkhkhi4)
-3. Chessino Contract Address:
-   [Frontend](https://chessino.netlify.app/)
+   [0x3h343hh6hl45h7h4g2ug452k456hkhkhi4](0x3h343hh6hl45h7h4g2ug452k456hkhkhi4)
+3. Website deployment of frontend:
+   [https://chessino.netlify.app/](https://chessino.netlify.app/)
+
+#
 
 ## How To Use The Platform:
 
@@ -37,6 +47,8 @@ The smart contracts have been deployed to the polygon mumbai testnes
 3. Create a new chess game or Join a new chess game
 
 4. Stream a live chess game
+
+#
 
 # Project Structure
 
@@ -56,17 +68,25 @@ The folder contains two (2) smart contracts and one (1) interface solidity file
 
 This is the folder containing files for the game play, it contains
 
+#
+
 ## Making a stake using CHN ERC20 Token
 
 ![A Live chess game](frontend/src/components/images/staking-game.jpg)
+
+#
 
 ## Admin Dashboard
 
 ![Admin dashboard](frontend/src/components/images/admin.jpg)
 
+#
+
 ## Streaming a live game
 
 ![Stream live chess game](frontend/src/components/images/watch-live-game.jpg)
+
+#
 
 ## Truffle test result
 

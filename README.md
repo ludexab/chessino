@@ -66,7 +66,7 @@ The folder contains two (2) smart contracts and one (1) interface solidity file
 
 ### frontend
 
-This is the folder containing files for the game play, it contains
+This is the folder containing files for the game play, it contains files that render an interface for a user to interact with the app.
 
 #
 

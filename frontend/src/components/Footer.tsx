@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Footer = () => {
+  const navigate = useNavigate();
   return (
     <div className="w-full bg-black grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3 text-white pt-3 pb-3">
       {/* <Link to="/about">About</Link>
@@ -16,8 +17,9 @@ export const Footer = () => {
         <p className="text-2xl font-semibold">About Us</p>
         <p className="p-5">
           We are a group of two who have come together to build a web3 chess
-          game for this polygon hackathon 2022 (Beginner track). <br /> Emmanuel
-          Abalaka (team lead, Blockchain developer), <br /> Daniel Onyedikachi
+          game for this polygon hackathon 2022 (Beginner track). <br />
+          <button onClick={() => navigate("/admin")}>Emmanuel Abalaka</button>
+          (team lead, Blockchain developer), <br /> Daniel Onyedikachi
           (Blockchain developer)
         </p>
       </div>

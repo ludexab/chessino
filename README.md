@@ -4,7 +4,7 @@
 
 #
 
-![A Live chess game](frontend/src/components/images/live-game.jpg)
+![A Live chess game](frontend/src/components/images/chessino-live.jpg)
 
 #
 
@@ -72,19 +72,19 @@ This is the folder containing files for the game play, it contains files that re
 
 ## Making a stake using CHN ERC20 Token
 
-![A Live chess game](frontend/src/components/images/staking-game.jpg)
+![Staking chess game](frontend/src/components/images/chessino-staking.jpg)
 
 #
 
 ## Admin Dashboard
 
-![Admin dashboard](frontend/src/components/images/admin.jpg)
+![Admin dashboard](frontend/src/components/images/chessino-admin.jpg)
 
 #
 
 ## Streaming a live game
 
-![Stream live chess game](frontend/src/components/images/watch-live-game.jpg)
+![Stream live chess game](frontend/src/components/images/chessino-streaming.jpg)
 
 #
 

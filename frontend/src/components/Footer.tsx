@@ -8,15 +8,15 @@ export const Footer = () => {
       <div className="text-center pl-2 pr-4">
         <p className="text-2xl font-semibold">How to play</p>
         <p className="p-5">
-          Choose a game to play, connect your wallet, stake an amount, play and
-          win
+          Connect your wallet, stake CHN token, Create or Join a game, or Stream
+          live chess game.
         </p>
       </div>
       <div className="text-center">
         <p className="text-2xl font-semibold">About Us</p>
         <p className="p-5">
           We are a group of two who have come together to build a web3 chess
-          game for this polygon hackaton 2022 (Beginner track). <br /> Emmanuel
+          game for this polygon hackathon 2022 (Beginner track). <br /> Emmanuel
           Abalaka (team lead, Blockchain developer), <br /> Daniel Onyedikachi
           (Blockchain developer)
         </p>

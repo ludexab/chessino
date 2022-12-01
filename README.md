@@ -30,7 +30,7 @@ This is a web3 chess gaming platform where users connect their digital crypto wa
 The smart contracts have been deployed to the polygon mumbai testnet
 
 1. CHN ERC20 Token Contract Address:
-   0x3h343hh6hl45h7h4g2ug452k456hkhkhi4](0x3h343hh6hl45h7h4g2ug452k456hkhkhi4)
+   [0x3h343hh6hl45h7h4g2ug452k456hkhkhi4](0x3h343hh6hl45h7h4g2ug452k456hkhkhi4)
 2. Chessino Contract Address:
    [0x3h343hh6hl45h7h4g2ug452k456hkhkhi4](0x3h343hh6hl45h7h4g2ug452k456hkhkhi4)
 3. Website deployment of frontend:

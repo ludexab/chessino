@@ -1,0 +1,27 @@
+.head-bk-col {
+  background-color: rgb(24, 8, 1);
+}
+
+.body-div {
+  min-height: 76vh;
+  background-color: rgba(15, 3, 66, 0.979);
+}
+.side-div {
+  background-color: rgba(198, 208, 209, 0.904);
+}
+.main-div {
+  background-color: rgba(198, 208, 209, 0.904);
+}
+.scrollable-div {
+  max-height: 300px;
+  min-height: 300px;
+  overflow: auto;
+  word-wrap: break-word;
+}
+.dashboard-card {
+  background-color: rgba(198, 208, 209, 0.904);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

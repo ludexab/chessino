@@ -1,0 +1,24 @@
+{
+  "CHNADDRESS": "0x015e5ae3c4b192c600A047992f9586122b4B24fD",
+  "CHNABI": [
+    "function transferFrom(address from, address to, uint amount) external returns(bool)",
+    "function approve(address spender, uint amount) external returns(bool)"
+  ],
+
+  "ChessinoAddress": "0x2424263C854204aE03fA8004F179b3fF0F86C33D",
+  "ChessinoABI": [
+    "function getPendingPayoutAmount() public view returns(uint256)",
+    "function payoutWinners() public",
+    "function setWinners(uint256 amount) public",
+    "function makeStake(uint _amount) public returns(bool)",
+    "function setNewMerchant(address _admin) public returns(bool)",
+    "function getWinnersDetails() public view returns( address[] memory, uint256[] memory )",
+    "function getStakersDetails() public view returns( address[] memory, uint256[] memory )",
+    "event StakeSuccessful(address user,  uint amount)",
+    "event PayoutDone(uint256 totalWinners, uint256 totalPayoutAmount)",
+    "event WinnerSet(address winner, uint256 amount)",
+    "function getAdmin() public view returns( address)",
+    "function getTotalStakes() public view returns(uint256)",
+    "function checkAddressInArray(address[] memory _array, address _address ) public view returns(bool)"
+  ]
+}

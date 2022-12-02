@@ -33,6 +33,7 @@ N.B Please note that this project has been developed as a prototype, therefore i
 4. TypeScript
 5. React.js
 6. Firebase database
+7. Node.js
 
 #
 
@@ -41,13 +42,34 @@ N.B Please note that this project has been developed as a prototype, therefore i
 The smart contracts have been deployed to the Polygon Mumbai Testnet and the frontend deployed on netlify. The links are given below
 
 1. CHN ERC20 Token Contract Address:
-   [0x3h343hh6hl45h7h4g2ug452k456hkhkhi4](0x3h343hh6hl45h7h4g2ug452k456hkhkhi4)
+   [0xA01a413247Ad1cAe2A1de23592A1cD39C2d779C2](0xA01a413247Ad1cAe2A1de23592A1cD39C2d779C2)
 2. Chessino (Game platform processor) Contract Address:
-   [0x3h343hh6hl45h7h4g2ug452k456hkhkhi4](0x3h343hh6hl45h7h4g2ug452k456hkhkhi4)
+   [0x471C8B7b6e54293fECa3F52440C851e3Fa2DefF6](0x471C8B7b6e54293fECa3F52440C851e3Fa2DefF6)
 3. Website deployment of frontend:
    [https://chessino.netlify.app/](https://chessino.netlify.app/)
 
 #
+
+# To Run This Project On Local Machine
+
+N.B The following tools and libraries are required to be installed on local machine
+
+- Node v16 or higher
+- Ganache
+- truffle
+
+In order to recreate this project on a local machine, follow the steps below
+
+1. Clone this repository
+2. In the root directory, navigate to the 'frontend' directory
+3. Run the command `npm i` to install all dependencies
+4. From the root directory, navigate to the smart contracts directory
+5. From root directory, navigate to smart-contracts/migrations and input addresses to fund with CHN in order to test with.
+6. Run the truffle command `truffle migrate --reset`
+7. From the root directory, navigate to frontend/src dirctory and update the contract-details.json file with the CHN contract address and Chessino contract address you got in step 5 above.
+8. From the root directory, navigate to the frontend directory and run the command `npm run dev`
+   You are all set!
+9. To run test on the smart contracts, navigate to the smart-contracts directory and run the command `truffle test`
 
 # How The Project Works:
 
@@ -107,6 +129,12 @@ This is the folder containing files for the game play, it contains files that re
 
 #
 
+### Chess in waiting mode
+
+![Waiting mode](frontend/src/components/images/chessino-waiting.jpg)
+
+#
+
 ### Admin Dashboard
 
 ![Admin dashboard](frontend/src/components/images/chessino-admin.jpg)
@@ -116,6 +144,12 @@ This is the folder containing files for the game play, it contains files that re
 ### Streaming a live game
 
 ![Stream live chess game](frontend/src/components/images/chessino-streaming.jpg)
+
+#
+
+### Admin payout
+
+![Admin payout](frontend/src/components/images/chessino-admin-payout.jpg)
 
 #
 

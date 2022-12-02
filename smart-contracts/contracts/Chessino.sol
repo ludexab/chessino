@@ -17,9 +17,9 @@ contract Chessino {
     event PayoutDone(uint256 totalWinners, uint256 totalPayoutAmount);
     event WinnerSet(address winner, uint256 amount);
 
-    constructor (address _admin, address _chnAddress) {
+    constructor ( address _chnAddress) {
         chn = ICHN(_chnAddress);
-        admin = _admin;
+        admin = msg.sender;
     }
 
     function setNewAdmin(address _admin) public returns(bool){

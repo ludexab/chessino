@@ -1,11 +1,11 @@
 {
-  "CHNADDRESS": "0x015e5ae3c4b192c600A047992f9586122b4B24fD",
+  "CHNADDRESS": "0xA01a413247Ad1cAe2A1de23592A1cD39C2d779C2",
   "CHNABI": [
     "function transferFrom(address from, address to, uint amount) external returns(bool)",
     "function approve(address spender, uint amount) external returns(bool)"
   ],
 
-  "ChessinoAddress": "0x2424263C854204aE03fA8004F179b3fF0F86C33D",
+  "ChessinoAddress": "0x471C8B7b6e54293fECa3F52440C851e3Fa2DefF6",
   "ChessinoABI": [
     "function getPendingPayoutAmount() public view returns(uint256)",
     "function payoutWinners() public",

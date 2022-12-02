@@ -10,7 +10,9 @@ export const Footer = () => {
   return (
     <div className="w-full bg-black grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 text-white pt-3 pb-3">
       <div className="text-center pl-2 pr-4">
-        <p className="text-2xl font-semibold">How To Use The Platform</p>
+        <p className="text-2xl font-semibold text-yellow-500">
+          How To Use The Platform
+        </p>
         {!tc ? (
           <>
             <p className="p-5">
@@ -97,16 +99,18 @@ export const Footer = () => {
                 <br />
                 6. Winning a game. Only a checkmate can result to a win in this
                 gaming platform, if there is a draw, the two players are
-                considered to have lost the game. 7. When a player wins a game,
-                the player is rewarded with a 90% of double the amount staked by
-                that user.
+                considered to have lost the game.
+                <br />
+                <br />
+                7. When a player wins a game, the player is rewarded with a 90%
+                of double the amount staked by that user.
               </div>
             </div>
           </>
         )}
       </div>
       <div className="text-center">
-        <p className="text-2xl font-semibold">About Us</p>
+        <p className="text-2xl font-semibold text-yellow-500">About Us</p>
         <p className="p-5">
           All rights reserved <br />
           Polygon hackathon africa 2022. <br />

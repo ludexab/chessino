@@ -78,6 +78,9 @@ const App = () => {
       });
       setAccount(acc[0]);
       setConnecting(false);
+    } else {
+      window.alert("Please install Metamask and try again");
+      setConnecting(false);
     }
   };
 

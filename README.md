@@ -12,22 +12,14 @@
 
 This is a web3 chess gaming and streaming platform where users play a game of chess against another user to win a reward. Users can also stream Live chess game currently being played on the platform.
 
-######
-
 Users stake CHN ERC20 token to create a new chess game and/or join a new chess game. CHN is the ERC20 token that is created and deployed on the Polygon Mumbai Testnet for use on the platform. Users make stakes using CHN token and are rewarded in CHN token.
 
-######
-
 Users may also stream a live chess game happening on the platform. However, users do not need to stake to stream a live chess game for now.
-
-######
 
 When a chess game is played and there is a winner, a routine payout is triggered and the winners are paid their winnings.
 A winner is paid 90% of double their stake on a game.
 
-For example, if a user stakes 5CHN and wins, he is paid 9CHN as reward. I.e 90% of (5 \* 2)
-
-######
+For example, if a user stakes 5 CHN and wins, he is paid 9CHN as reward. I.e 90% of (5 \* 2)
 
 N.B Please note that this project has been developed as a prototype, therefore it is still limited in some scalability features. For example, only one live chess game can be played at a time on the platform. Subsequent users that login after a chess game is started will automatically be only allowed to stream that live game
 
@@ -93,10 +85,24 @@ To use the Chessino gaming and streaming platform, a user has to follow the foll
    To create a new game or join a new game, a user will need to make a stake using the CHN ERC20 token from step 2 above.
    Enter the amount of CHN you wish to stake (minimum stake is 2 CHN) into the field in the middle left position of the screen and click on the stake button.
 
+   ### Making a stake using CHN ERC20 Token
+
+   ![Staking chess game](frontend/src/components/images/chessino-staking.jpg)
+
 4. Once the staking is successful,
 
 - if the user is creating a new game, a selection dropdown will appear for user to select the color to play as (either playing as white, or playing as black). Then click on the START button, the game is now in waiting mode, waiting for the second player to begin.
+
+### Chess in waiting mode
+
+![Waiting mode](frontend/src/components/images/chessino-waiting.jpg)
+
 - else if the user is joining a new game, the option to choose player color will not be available. The creator of the current game has advantage of choosing color first. Then click on the START button and the game commences for both players.
+
+### Live Chess game
+
+![A Live chess game](frontend/src/components/images/chessino-live.jpg)
+
 - if a new game has been created and the game is in the waiting mode, a user who login into the platform will automatically be joining the new game already created, the new game is now complete and game mode is now live.
 
 N.B Because this application is a prototype, only one game can happen at a particular time. Subsequent users that login to the site will automatically be streaming the current live chess game.
@@ -105,9 +111,17 @@ N.B Because this application is a prototype, only one game can happen at a parti
 
 - the user does not need to stake to stream a live game, hence the user does not need to connect the metamask wallet to stream.
 
+### Streaming a live game
+
+![Stream live chess game](frontend/src/components/images/chessino-streaming.jpg)
+
 6. Winning a game. Only a checkmate can result to a win in this gaming platform, if there is a draw, the two players are considered to have lost the game.
 
 7. When a player wins a game, the player is rewarded with a 90% of double the amount staked by that user.
+
+   ### Admin payout
+
+   ![Admin payout](frontend/src/components/images/chessino-admin-payout.jpg)
 
 #
 
@@ -130,35 +144,9 @@ The folder contains two (2) smart contracts and one (1) interface solidity file
 
 This is the folder containing files for the game play, it contains files that render an interface for a user to interact with the app.
 
-#
-
-### Making a stake using CHN ERC20 Token
-
-![Staking chess game](frontend/src/components/images/chessino-staking.jpg)
-
-#
-
-### Chess in waiting mode
-
-![Waiting mode](frontend/src/components/images/chessino-waiting.jpg)
-
-#
-
 ### Admin Dashboard
 
 ![Admin dashboard](frontend/src/components/images/chessino-admin.jpg)
-
-#
-
-### Streaming a live game
-
-![Stream live chess game](frontend/src/components/images/chessino-streaming.jpg)
-
-#
-
-### Admin payout
-
-![Admin payout](frontend/src/components/images/chessino-admin-payout.jpg)
 
 #
 

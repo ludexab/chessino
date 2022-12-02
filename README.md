@@ -85,7 +85,7 @@ To use the Chessino gaming and streaming platform, a user has to follow the foll
    To create a new game or join a new game, a user will need to make a stake using the CHN ERC20 token from step 2 above.
    Enter the amount of CHN you wish to stake (minimum stake is 2 CHN) into the field in the middle left position of the screen and click on the stake button.
 
-   ###### Making a stake using CHN ERC20 Token
+   ##### Making a stake using CHN ERC20 Token
 
    ![Staking chess game](frontend/src/components/images/chessino-staking.jpg)
 
@@ -93,13 +93,13 @@ To use the Chessino gaming and streaming platform, a user has to follow the foll
 
 - if the user is creating a new game, a selection dropdown will appear for user to select the color to play as (either playing as white, or playing as black). Then click on the START button, the game is now in waiting mode, waiting for the second player to begin.
 
-  ###### Chess in waiting mode
+  ##### Chess in waiting mode
 
   ![Waiting mode](frontend/src/components/images/chessino-waiting.jpg)
 
 - else if the user is joining a new game, the option to choose player color will not be available. The creator of the current game has advantage of choosing color first. Then click on the START button and the game commences for both players.
 
-  ###### Live Chess game
+  ##### Live Chess game
 
   ![A Live chess game](frontend/src/components/images/chessino-live.jpg)
 
@@ -111,7 +111,7 @@ N.B Because this application is a prototype, only one game can happen at a parti
 
 - the user does not need to stake to stream a live game, hence the user does not need to connect the metamask wallet to stream.
 
-  ###### Streaming a live game
+  ##### Streaming a live game
 
   ![Stream live chess game](frontend/src/components/images/chessino-streaming.jpg)
 
@@ -119,7 +119,7 @@ N.B Because this application is a prototype, only one game can happen at a parti
 
 7. When a player wins a game, the player is rewarded with a 90% of double the amount staked by that user.
 
-   ###### Admin payout
+   ##### Admin payout
 
    ![Admin payout](frontend/src/components/images/chessino-admin-payout.jpg)
 
@@ -146,6 +146,6 @@ This is the folder containing files for the game play, it contains files that re
 
 #
 
-###### Truffle test result
+##### Truffle test result
 
 ![Stream live chess game](frontend/src/components/images/truffle-test.jpg)

@@ -10,13 +10,21 @@
 
 # Description Of Project
 
-This is a web3 chess gaming and streaming platform where users play a game of chess against another user to win a reward. Users stake CHN ERC20 token to create a new chess game and/or join a new chess game. CHN is the ERC20 token that is created and deployed on the Polygon Mumbai Testnet for use on the platform. Users make stakes using CHN token and are rewarded in CHN token.
+This is a web3 chess gaming and streaming platform where users play a game of chess against another user to win a reward. Users can also stream Live chess game currently being played on the platform.
+
+######
+
+Users stake CHN ERC20 token to create a new chess game and/or join a new chess game. CHN is the ERC20 token that is created and deployed on the Polygon Mumbai Testnet for use on the platform. Users make stakes using CHN token and are rewarded in CHN token.
 
 ######
 
 Users may also stream a live chess game happening on the platform. However, users do not need to stake to stream a live chess game for now.
+
+######
+
 When a chess game is played and there is a winner, a routine payout is triggered and the winners are paid their winnings.
 A winner is paid 90% of double their stake on a game.
+
 For example, if a user stakes 5CHN and wins, he is paid 9CHN as reward. I.e 90% of (5 \* 2)
 
 ######
@@ -78,6 +86,7 @@ To use the Chessino gaming and streaming platform, a user has to follow the foll
 1. Login to the website at [https://chessino.netlify.app/](https://chessino.netlify.app/)
 
 2. Connect Metamask wallet and switch to the polygon mumbai testnet
+
    N.B The Metamask wallet address must contain some CHN token or be funded with some CHN ERC20 tokens, this is your staking power.
 
 3. Make a stake using CHN ERC20 token deployed on Polygon Mumbai Testnet.

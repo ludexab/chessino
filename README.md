@@ -10,7 +10,7 @@
 
 # Description Of Project
 
-This is a web3 chess gaming and streaming platform where users play a game of chess against another user to win a reward. Users can also stream Live chess game currently being played on the platform.
+Chesino is a web3 chess gaming and streaming platform where users play a game of chess against another user by staking cryptocurrency to win a much bigger reward in cryptocurrency. Users can also stream Live chess game currently being played on the platform.
 
 Users stake CHN ERC20 token to create a new chess game and/or join a new chess game. CHN is the ERC20 token that is created and deployed on the Polygon Mumbai Testnet for use on the platform. Users make stakes using CHN token and are rewarded in CHN token.
 

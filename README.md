@@ -21,7 +21,7 @@ A winner is paid 90% of double their stake on a game.
 
 For example, if a user stakes 5 CHN and wins, he is paid 9CHN as reward. I.e 90% of (5 \* 2)
 
-N.B Please note that this project has been developed as a prototype, therefore it is still limited in some scalability features. For example, only one live chess game can be played at a time on the platform. Subsequent users that login after a chess game is started will automatically be only allowed to stream that live game
+N.B Please note that this project has been developed as a prototype and may be limited in some scalability features. For example, only one live chess game can be played at a time on the platform in this current prototype version. Consequently, users that login after a chess game is started will automatically be only allowed to stream that live game.
 
 #
 

@@ -1,7 +1,5 @@
 # CHESSINO - Web3 chess gaming and streaming platform
 
-## Polygon Hackathon Africa 2022 (Beginner Track) Project
-
 #
 
 ![A Live chess game](frontend/src/components/images/chessino-live.jpg)
